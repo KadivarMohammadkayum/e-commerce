@@ -7,7 +7,7 @@ const Login = () => {
       <section>
         <div className="min-h-screen items-center justify-evenly grid md:grid-cols-2 gap-8">
           <div>
-            <img src="./public/Images/logingif.gif" alt="registerm gif" className='lg:max-w-[90%] w-80 h-80 object-contain block mx-auto' />
+            <img src="./public/assets/Images/logingif.gif" alt="registerm gif" className='lg:max-w-[90%] w-80 h-80 object-contain block mx-auto' />
           </div>
           <div className="bg-white p-8 rounded shadow-md w-full max-w-md md:my-10 sm:my-8">
             <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>

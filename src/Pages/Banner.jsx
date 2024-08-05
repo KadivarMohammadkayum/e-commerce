@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import bannerimg from '../../public/Images/banner-4.jpg'
+import bannerimg from '../../public/assets/Images/banner-4.jpg'
 import { FaHome } from "react-icons/fa";
 import { MdArrowBackIos } from "react-icons/md";
 

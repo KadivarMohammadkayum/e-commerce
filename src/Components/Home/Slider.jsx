@@ -5,14 +5,14 @@ import { GoDotFill } from "react-icons/go";
 const slides = [
     {
         id: 1,
-        image: './public/Images/banner-1.png',
+        image: './public/assets/Images/banner-1.png',
         title: 'Peach Color Up Neack',
         title2: 'Blouson Top',
         description: 'Get the best deals on spring fashion',
     },
     {
         id: 2,
-        image: './public/Images/banner-2.png',
+        image: './public/assets/Images/banner-2.png',
         title: 'Madame Women Black',
         title2: 'Full Sleeve',
         description: 'Exclusive summer styles available now',

@@ -3,21 +3,21 @@ import React from 'react'
 const slides = [
     {
         id: 1,
-        image: './public/Images/discount-1.png',
+        image: './public/assets/Images/discount-1.png',
         title: 'Mans Casual',
         title2: 'Style T-Shirt',    
         discount: 'Flat 20% Discount'
     },
     {
         id: 2,
-        image: './public/Images/discount-2.png',
+        image: './public/assets/Images/discount-2.png',
         title: 'Buy White Dress',
         title2: 'For Women',    
         discount: 'Flat 30% Discount'
     },
     {
         id: 2,
-        image: './public/Images/discount-3.png',
+        image: './public/assets/Images/discount-3.png',
         title: 'Latest Women',
         title2: 'T-&hirt & Pant',
         discount: 'Flat 40% Discount'
@@ -50,7 +50,7 @@ const Deals = () => {
             {/* Holiday Deal template */}
             <section className='my-10'>
                 <div className='relative'>
-                    <img src="./public/Images/deals.png" alt="" className='' />
+                    <img src="./public/assets/Images/deals.png" alt="" className='' />
                     <div className='absolute inset-0 flex items-center justify-center'>
                         <div className='text-center'>
                             <p className='lg:text-4xl tracking-wider text-md md:text-2xl'>New Clostich Collection</p>

@@ -4,7 +4,7 @@ import { IoArrowForward } from "react-icons/io5";
 import { FaRupeeSign } from "react-icons/fa";
 import { MdOutlineHighQuality } from "react-icons/md";
 import { GiReturnArrow } from "react-icons/gi";
-import bannerImg from '../../../public/Images/banner-4.jpg'
+import bannerImg from '../../../public/assets/Images/banner-4.jpg'
 import Banner from '../../Pages/Banner';
 
 const teamMembers = [

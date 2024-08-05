@@ -9,7 +9,7 @@ const Register = () => {
       <section className='container mx-auto font-[sans-serif]'>
         <div className="min-h-screen items-center justify-evenly grid md:grid-cols-2 gap-8">
           <div>
-            <img src="./public/Images/registergif.png" alt="registerm gif" className='lg:max-w-[90%] w-80 h-80 object-contain block mx-auto' />
+            <img src="./public/assets/Images/registergif.png" alt="registerm gif" className='lg:max-w-[90%] w-80 h-80 object-contain block mx-auto' />
           </div>
           <div className=" p-8 rounded shadow-md w-full max-w-md bg-[#fff]  md:my-12 sm:my-12">
             <h2 className="text-2xl font-bold mb-6">Create an account</h2>
