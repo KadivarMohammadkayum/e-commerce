@@ -63,7 +63,7 @@ const ProductDetails = () => {
                             <div className="w-full md:w-2/3 lg:ps-12 lg:my-10">
                                 <h2 className="text-2xl font-bold mb-1">{product.name}</h2>
                                 <h2 className="text-md mb-1 text-xl">{product.title}</h2>
-                                <h2 className="text-md mb-1 text-lg text-red-500 font-semi-bold">x`{product.deals}</h2>
+                                <h2 className="text-md mb-1 text-lg text-red-500 font-semi-bold">{product.deals}</h2>
                                 <div className="mb-2 space-x-4">
                                     {product.newprice && product.oldprice ? (
                                         <>

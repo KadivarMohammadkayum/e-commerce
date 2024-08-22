@@ -45,7 +45,6 @@
       "category": "Blog"
     },
     {
-      "id": "bfe6",
       "image": "https://demos.codezeel.com/prestashop/PRS21/PRS210508/modules/cz_instagramfeeds/views/img/instapic/4.jpg",
       "name": "Morbi Condimentum Molestie Nam",
       "title": "",
@@ -53,7 +52,8 @@
       "newprice": "",
       "deals": "",
       "description": "Donec tellus Nulla lorem Nullam elit id ut elit feugiat lacus. Congue eget dapibus congue tincidunt senectus nibh risus Phasellus tristique justo. Justo Pellentesque Donec lobortis",
-      "category": ""
+      "category": "",
+      "id": "bfe6"
     },
     {
       "id": "25ac",
@@ -604,32 +604,21 @@
       "deals": "",
       "description": "Stylish Combos from the house of EIO cute prints with solid colour makes it attractive and stylish. The soft 100% cotton snap buttons easy wear and proper fit. Kids will be comfortable in these cute colour and cartoon print for all day long.",
       "category": "kid"
+    },
+    {
+      "id": "a369",
+      "image": "https://m.media-amazon.com/images/I/61kqhTCKtgL._AC_UL480_FMwebp_QL65_.jpg",
+      "name": "BRANDONN",
+      "title": "Unisex Baby Flannel Jumpsuit Panda Style Cosplay Clothes Bunting Outfits Snowsuit Hooded Romper",
+      "oldprice": "599",
+      "newprice": "250",
+      "deals": "",
+      "description": "",
+      "category": "kid"
     }
   ],
   "Contactus": [],
   "cart": [
-    {
-      "id": "885b",
-      "image": "https://m.media-amazon.com/images/I/71NCBXev2YL._AC_UL480_FMwebp_QL65_.jpg",
-      "name": "Symbol Premium",
-      "title": "Symbol Premium Men's All day Fresh Buttondown Oxford Shirt ",
-      "oldprice": "2199",
-      "newprice": "1399",
-      "deals": "",
-      "description": "",
-      "category": "men"
-    },
-    {
-      "id": "e961",
-      "image": "https://m.media-amazon.com/images/I/81efMvzQeNL._AC_UL480_FMwebp_QL65_.jpg",
-      "name": "clostic- Brand - Symbol",
-      "title": "Men's Regular Fit Formal Shirt",
-      "oldprice": "2199",
-      "newprice": "745",
-      "deals": "",
-      "description": "",
-      "category": "men"
-    },
     {
       "id": "a05a",
       "image": "https://demos.codezeel.com/prestashop/PRS21/PRS210508/110-large_default/hummingbird-vector-graphics.jpg",
@@ -640,6 +629,28 @@
       "deals": "",
       "description": "",
       "category": "ourproduct"
+    },
+    {
+      "id": "30a0",
+      "image": "https://m.media-amazon.com/images/I/51ev+3724CL._SY550_.jpg",
+      "name": "Louis Philippe ",
+      "title": "Slim Fit Textured All Day Comfort Cotton Effortless Ironing Formal Shirt",
+      "oldprice": "2199",
+      "newprice": "1299",
+      "deals": "",
+      "description": "Introducing the Louis Philippe Men's Formal Shirt, crafted from Premium Cotton Material. The shirt, perfectly curated for formal occasions, coupled with your self- assurance, completes your outfit. This must-have addition to your wardrobe promises a unique impression and is a versatile ",
+      "category": "men"
+    },
+    {
+      "id": "768c",
+      "image": "https://m.media-amazon.com/images/I/71kd6TmkI1L._SY679_.jpg",
+      "name": "Scott International",
+      "title": "Winter Jacket for Men Bomber Jacket Mens Nylon Quilted standard length Puffer Jacket Full Sleeve Mens Jacket Monsoon Jackets for Men",
+      "oldprice": "1500",
+      "newprice": "650",
+      "deals": "",
+      "description": "We made the Thermowrap jacket in a size that's good for wearing with a T-shirt underneath, and we have crafted it accordingly .",
+      "category": "men"
     }
   ]
 }

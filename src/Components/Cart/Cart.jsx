@@ -79,7 +79,7 @@ const ProductPage = () => {
                 />
                 <div className="flex-grow lg:ml-5 md:ml-3">
                   <p className="font-bold lg:text-2xl text-lg my-1">{item.name}</p>
-                  <p className="text-gray-500">{item.title}</p>
+                  <p className="text-gray-500 max-w-[95%]">{item.title}</p>
                   <p className="text-red-500 text-lg font-semibold my-1.5">Rs. {item.newprice}</p>
                 </div>
                 {/* Display total price for each item */}
@@ -107,7 +107,7 @@ const ProductPage = () => {
                 {/* Button to remove item from cart */}
                 <button
                   onClick={() => handleRemove(item.id)}
-                  className="ml-4 bg-red-500 text-white py-1 px-2 rounded hover:bg-red-600 transition"
+                  className="ml-4 bg-white py-1 px-2 rounded text-black border-2 border-rounded"
                 >
                   Remove
                 </button>
@@ -118,7 +118,7 @@ const ProductPage = () => {
           {cartItems.length > 0 && (
             <div className="mt-8">
               <p className="text-xl font-bold md:text-2xl">
-                Total: Rs. {calculateTotal()}
+                Total: Rs.{calculateTotal()}
               </p>
               <button
                 onClick={orderNow}

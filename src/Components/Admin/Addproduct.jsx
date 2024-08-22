@@ -4,6 +4,7 @@ import Swal from 'sweetalert2';
 import AdminSidebar from './AdminSidebar';
 import AdminHeader from './AdminHeader';
 
+
 const Addproduct = () => {
 
   const image = useRef(null);
@@ -120,15 +121,13 @@ const Addproduct = () => {
                   />
                 </div>
                 <div className="mb-4">
-                  <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">Category :</label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                    placeholder='Enter Product ategory'
-                    ref={category}
-                  />
+                  <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2" for="category">Category :</label>
+                  <select name='category' id='category' ref={category} className='shadow border appearance-none rounded w-full py-2 px-3 leading-tight focus:shadow-outline focus:outline-none text-gray-700'>
+                    <option>-Select Category-</option>   
+                    <option >Men</option> 
+                    <option >Women</option>
+                    <option >Kid</option> 
+                  </select>
                 </div>
               </div>
               <div className="mb-">

@@ -1,14 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { AiOutlineDashboard, AiOutlineLogout } from "react-icons/ai";
 import { HiOutlineLogin } from "react-icons/hi";
 import { FaBox } from "react-icons/fa6";  
 import { MdManageHistory, MdProductionQuantityLimits  } from "react-icons/md"; 
 import { BiSolidContact } from "react-icons/bi"; 
 
-
 const AdminSidebar = () => {
-
     const Links = [
         {
             icon : <AiOutlineDashboard />,
@@ -28,7 +26,7 @@ const AdminSidebar = () => {
         {
             icon : <FaBox />,
             name : 'Orders',
-            to: "/Admin/dashboard"
+            to: "/Admin/orders"
         },
         {
             icon : <BiSolidContact />,
@@ -38,40 +36,37 @@ const AdminSidebar = () => {
         {
             icon : <HiOutlineLogin />,
             name : 'Login',
-            to: "/Admin/dashboard"
+            to: "/Admin/logi"
         },
         {
             icon : <AiOutlineLogout />,
             name : 'Log Out',
-            to: "/Admin/dashboard"
+            to: "/Admin/logout"
         }
-    ]
-    return (
-        <>
-            <section className='bg-slate-800 h-[100vh] fixed w-[17%]'>
-                <div></div>
-                <div>
-                    <ul className=''>
-                        {
-                            Links.map(({ icon, name, to }, index) => {
-                                    return (
-                                        <li key={index} className="flex items-center space-x-2 p-2 ps-5 text-white hover:bg-slate-700 rounded-full mt-4">
-                                            <Link to={to} className='flex items-center space-x-3 '>
-                                            {icon}
-                                            <span>{name}</span>
-                                            </Link>
-                                        </li>
-                                    )
-                                }
-                            )
-                        }
-                        
-                    </ul>
-                </div>
+    ];
 
-            </section>
-        </>
-    )
+    return (
+        <section className='bg-slate-800 h-[100vh] fixed w-[17%]'>
+            <div></div>
+            <div>
+                <ul>
+                    {Links.map(({ icon, name, to }, index) => (
+                        <li key={index} className="flex items-center space-x-2 p-2 ps-5 text-white hover:bg-slate-700 rounded-full mt-4">
+                            <NavLink
+                                to={to}
+                                className={({ isActive }) =>
+                                    `flex items-center space-x-3  ${isActive ? 'font-bold text-red-400 py-2 w-full rounded-full' : ''} rounded-full w-full py-1`
+                                }
+                            >
+                                {icon}
+                                <span>{name}</span>
+                            </NavLink>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </section>
+    );
 }
 
-export default AdminSidebar
+export default AdminSidebar;
